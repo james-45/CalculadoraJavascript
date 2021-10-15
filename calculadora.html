@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div class='res' id=res></div>
+        <div id=botoes>
+            <p class='linha1'>Insira uma operação:
+
+            </p>
+            <p><input type="button" class="b1" onclick=escrever(this.value) value=7>
+                <input type="button" class="b1" onclick=escrever(this.value) value=8>
+                <input type="button" class="b1" onclick=escrever(this.value) value=9>
+                <input type="button" class="b1" onclick=escrever(this.value) value= />
+                <input type="button" class="b1" onclick=escrever(this.value) value=cos>
+            </p>
+            <p><input type="button" class="b1" onclick=escrever(this.value) value=4>
+                <input type="button" class="b1" onclick=escrever(this.value) value=5>
+                <input type="button" class="b1" onclick=escrever(this.value) value=6>
+                <input type="button" class="b1" onclick=escrever(this.value) value=*>
+                <input type="button" class="b1" onclick=escrever(this.value) value=sen>
+            </p>
+            <p><input type="button" class="b1" onclick=escrever(this.value) value=1>
+                <input type="button" class="b1" onclick=escrever(this.value) value=2>
+                <input type="button" class="b1" onclick=escrever(this.value) value=3>
+                <input type="button" class="b1" onclick=escrever(this.value) value=->
+                <input type="button" class="b1" onclick=escrever(this.value) value=^>
+            </p>
+            <p><input type="button" class="b1" onclick=clean() value=C>
+                <input type="button" class="b1" onclick=escrever(this.value) value=0>
+                <input type="button" class="b1" onclick=calcular(this.value) value==>
+                <input type="button" class="b1" onclick=escrever(this.value) value=+>
+                <input type="button" class="b1" onclick=escrever(this.value) value=sqrt>
+            </p>
+        </div>
+
+    </section>
+    <footer class='rodape'>
+        <p>&copy; James Cavalcante</p>
+    </footer>
+    <script src="logica.js"></script>
+</body>
+
+</html>
